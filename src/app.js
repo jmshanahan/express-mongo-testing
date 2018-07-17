@@ -8,7 +8,7 @@ if (process.env.NODE_ENV !== "test") {
   const db = require("config/keys").mongoURI;
   mongoose
     .connect(
-      db,
+      process.env.MONGODB_URI || db,
       { useNewUrlParser: true }
     )
     .then(() => console.log("MongooseDB connected"))

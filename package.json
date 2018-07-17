@@ -8,6 +8,9 @@
     "test-watch": "NODE_ENV=test NODE_PATH=./src nodemon --exec mocha",
     "start": "NODE_PATH=./src node ./src/index.js"
   },
+  "engine": {
+    "node": "8.11.3"
+  },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "17.0.0",
