@@ -15,3 +15,6 @@ Note it uses envoronment variables set in the package.json file
 
 - NODE_ENV=test
 - NODE_PATH=./src
+
+This example provides a good pattern on how to set up data validation in mongoose and how to check for these validations in express and pass them onto the client.
+Use this pattern form express/mongo development
